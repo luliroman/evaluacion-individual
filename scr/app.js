@@ -5,9 +5,9 @@ const methodOverride= require ('method-override');
 
 const indexRouter = require('./routes/indexRouter');
 
-app.use(methodOverride('_method');
+app.use(methodOverride('_method'));
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
